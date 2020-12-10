@@ -1,0 +1,170 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Song Scaffold</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  
+  
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+  
+  <!--
+  <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.min.js"></script>
+  -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css">
+  
+  
+  <link rel="stylesheet" href="css/styles.css">
+  
+ 
+
+</head>
+
+<body>
+    
+
+ 
+
+
+    <div class="demo">
+     
+     
+       
+        
+        <br />
+        <ul id="sortable1" class='available'>
+            <div align='center'>
+                <h2>Current Playback</h2> 
+           </div>
+ 
+            <section class="containerPlayer">
+                <div class="one">intro</div>
+                <div class="two">verse</div>
+                
+                <a>Play/Pause/Seek/Speed (there would be a black line above showing current place)</a>
+               
+            </section>
+          
+            <div align='center'>
+                 <h2>Song Layout</h2> 
+            </div>
+            <br />
+            <div id="accordion" style="width:950px;">
+                <div class="group">
+                     <h2><span class="text"><a href="#">Intro</a></span></h2>
+    
+                    <div class="container">
+                        <ul id="sortable1"   style="width:700px;">
+                            <li class='ui-state-default'><b>Region</b> 
+                                <br/>uid : 1
+                                <br/>id : 1
+                                <br/>time : 9.80
+                                <br/>bpm : 98
+                                <br/>visuals : star-wipe
+                                <br/>chords : B A G A                               
+                            </li>
+                            <li class='ui-state-default'><b>Region</b> 
+                                <br/>uid : 2
+                                <br/>id : 1
+                                <br/>time : 29.39
+                                <br/>bpm : 98
+                                <br/>visuals : star-wipe
+                                <br/>chords : B A G A                               
+                            </li>
+                            
+                            
+                        </ul> 
+                    </div>
+                </div>
+               
+                <div class="group">
+                     <h2><span class="text"><a href="#">Verse</a></span></h2>
+    
+                    <div class="container">
+                        <ul id="sortable1" class='available' style="width:850px;">
+                            <li class='ui-state-default'><b>Associate's</b>
+    
+                                <br />Section: B</li>
+                            <li class='ui-state-default'><b>Bachelor's</b>
+    
+                                <br />Section: B</li>
+                            <li class='ui-state-default'><b>Master's</b>
+    
+                                <br />Section: B</li>
+                            <li class='ui-state-default'><b>Doctorate</b>
+    
+                                <br />Section: B</li>
+                            <li class='ui-state-default'><b>Other</b>
+    
+                                <br />Section: B</li>
+                        </ul>
+                    </div>
+                </div>
+               
+                <div class="group">
+                     <h2><span class="text"><a href="#">Chorus</a></span></h2>
+    
+                    <div class="container">
+                        <ul id="sortable1" class='available' style="width:850px;">
+                            <li class='ui-state-default'><b>Science</b>
+    
+                                <br />Section: C</li>
+                            <li class='ui-state-default'><b>Business</b>
+    
+                                <br />Section: C</li>
+                            <li class='ui-state-default'><b>Liberal Arts</b>
+    
+                                <br />Section: C</li>
+                        </ul>
+                    </div>
+                </div>
+               
+                <div class="group">
+                    <h2><span class="text"><a href="#">Verse</a></span></h2>
+   
+                   <div class="container">
+                       <ul id="sortable1" class='available' style="width:850px;">
+                           <li class='ui-state-default'><b>Associate's</b>
+   
+                               <br />Section: B</li>
+                           <li class='ui-state-default'><b>Bachelor's</b>
+   
+                               <br />Section: B</li>
+                           <li class='ui-state-default'><b>Master's</b>
+   
+                               <br />Section: B</li>
+                           <li class='ui-state-default'><b>Doctorate</b>
+   
+                               <br />Section: B</li>
+                           <li class='ui-state-default'><b>Other</b>
+   
+                               <br />Section: B</li>
+                       </ul>
+                   </div>
+               </div>
+            </div>
+            <!-- End accordion -->
+        </ul>
+        <br clear="both" />
+
+        
+        <div class="container">
+            <ul style="width:250px;">
+                <li class='ui-state-default'><b>Button to Add Intro</b> 
+                <li class='ui-state-default'><b>Button to Add Verse</b> 
+                <li class='ui-state-default'><b>Button to Add Chorus</b>  
+            </ul>
+        </div>
+        
+        
+    </div>
+
+    
+  <script src="js/scripts.js"></script>
+</body>
+</html>

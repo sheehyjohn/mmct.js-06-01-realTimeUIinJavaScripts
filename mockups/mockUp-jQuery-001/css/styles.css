@@ -1,0 +1,77 @@
+ 
+ .ui-widget-content {
+    background:#c4c4c4;
+}
+.ui-accordion-header {
+    position:fixed;
+    width: 100%;
+}
+.container {
+    width:100% !important;
+    border-style:none;
+}
+.group {
+    height:auto !important;
+    border-style:none;
+}
+#accodion h2 {
+    display:block;
+    text-align:left;
+}
+#accordion span.text {
+    text-align:left;
+}
+#sortable1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    background: #c7c7c7; 
+    padding: 5px;
+    width: 1000px;
+}
+#sortable1 li {
+    margin: 5px;
+    padding: 5px;
+    font-size: 1em;
+    width: 200px;
+    float: left;
+}
+#sortable2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 10px;
+    background: #eee;
+    padding: 5px;
+    width: 1000px;
+}
+#sortable2 li {
+    margin: 5px;
+    padding: 5px;
+    font-size: 1em;
+    width: 120px;
+    float: left;
+}
+
+ /* https://stackoverflow.com/questions/17217766/two-divs-side-by-side-fluid-display */
+.containerPlayer {
+    width: 80%;
+    height: 75px;
+    background: lightgreen;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .one {
+    width: 15%;
+    height: 50px;
+    background: khaki;
+    float: left;
+  }
+  
+  .two {
+    margin-left: 15%;
+    height: 50px;
+    background: MediumOrchid;
+  }
